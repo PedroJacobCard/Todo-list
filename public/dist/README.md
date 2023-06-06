@@ -1,0 +1,2 @@
+In this project I putted into practice the concepts of TypeScript which I learned.
+This project is a simple To-Do list that requires a basic knowledge of OPP, TypeScript objects types and working with the different types of the DOM.

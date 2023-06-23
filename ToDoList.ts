@@ -153,12 +153,12 @@
             const reminderSet = document.querySelector('#reminderSet') as HTMLElement;
 
             if(mode === ViewMode.TODO){
-                todoSet?.setAttribute('style', 'display: block');
+                todoSet?.setAttribute('style', 'display: flex');
                 todoSet?.removeAttribute('disabled');
                 reminderSet?.setAttribute('style', 'display: none');
                 reminderSet?.setAttribute('disabled', 'true');
             } else {
-                reminderSet?.setAttribute('style', 'display: block');
+                reminderSet?.setAttribute('style', 'display: flex');
                 reminderSet?.removeAttribute('disabled');
                 todoSet?.setAttribute('style', 'display: none');
                 todoSet?.setAttribute('disabled', 'true');
